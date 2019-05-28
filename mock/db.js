@@ -38,6 +38,7 @@ module.exports = {
         sub_title: "@ctitle(6,12)",
         banner: mr.image('750x501', mr.color(), mr.cword(4,10)),//banner不变
         time: "@integer(1553425967486,1553475967486)",
+        price:"@increment(100)",
         detail:{
           icon:mr.image('20x20', mr.color(), mr.cword(1,2)),//icon不变
           auth:"@cname()",
